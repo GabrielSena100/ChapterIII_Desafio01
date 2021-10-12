@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "lint:fix": "eslint --fix src --ext ts,tsx",
-    "test": "jest"
+    "test": "jest",
+    "typeorm": "ts-node ./node_modules/typeorm/cli"
   },
   "devDependencies": {
     "@types/jest": "^26.0.21",
@@ -16,7 +17,9 @@
     "typescript": "^4.2.3"
   },
   "dependencies": {
+    "express": "^4.17.1",
     "pg": "^8.5.1",
     "typeorm": "^0.2.31"
-  }
+  },
+  "repository": "https://github.com/GabrielSena100/ChapterIII_Desafio01.git"
 }
